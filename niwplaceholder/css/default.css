@@ -642,7 +642,7 @@ input[type="checkbox"] { display: inline; }
 }
 .rowp{
    width: 900px !important;
-   display: inline !important;
+   display: inline-block !important;
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
