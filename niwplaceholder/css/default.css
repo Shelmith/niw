@@ -42,14 +42,14 @@ e. Others
    z-index: 99999;
    height: 100%;
 }
-#status  {    
+#status  {
    position: absolute;
    left: 50%;
    top: 50%;
    width: 64px;
    height: 64px;
-   margin: -32px 0 0 -32px;  
-   padding: 0;    
+   margin: -32px 0 0 -32px;
+   padding: 0;
 }
 
 /* ------------------------------------------------------------------
@@ -495,14 +495,14 @@ input[type="button"] {
    font: 14px/24px 'montserrat-bold', sans-serif;
    background: #c71e23;
    color: #fff;
-   display: inline-block;   
+   display: inline-block;
 	text-decoration: none;
-   letter-spacing: 0;   
+   letter-spacing: 0;
 	padding: 12px 20px;
 	margin-bottom: 18px;
    border: none;
    cursor: pointer;
-   height: auto;  
+   height: auto;
 
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -617,13 +617,13 @@ input[type="checkbox"] { display: inline; }
    color: #B3B7BC;
 }
 :-moz-placeholder { /* Firefox 18- */
-   color: #B3B7BC;  
+   color: #B3B7BC;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #B3B7BC;  
+   color: #B3B7BC;
 }
-:-ms-input-placeholder { 
-   color: #B3B7BC;  
+:-ms-input-placeholder {
+   color: #B3B7BC;
 }
 .placeholder {
 	color: #B3B7BC !important;
@@ -777,7 +777,7 @@ properly.
       width: 100% !important;
    }
    .column, .columns {
-	   width: auto !important;      
+	   width: auto !important;
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;

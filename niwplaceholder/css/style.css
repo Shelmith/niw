@@ -15,7 +15,7 @@ p,ul li,ol li{
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Oswald', sans-serif;
+	font-family:'montserrat-regular', sans-serif;
 	margin:0;
 }
 ul,label{
@@ -24,6 +24,7 @@ ul,label{
 }
 body a:hover{
 	text-decoration:none;
+  font-family:'montserrat-regular', sans-serif;
 }
 input[type="submit"],input[type="reset"],.w3layouts_mail_grid_left2 a,.w3agile_similar_post_left ul li a,.w3agile_similar_post_left h4 a,.w3l_categories ul li a,.agileits_recent_posts_gridr h4 a,.agileits_recent_posts_gridr ul li a,.w3agile_blog_left_grid_r ul li a,.w3ls_choose_us_right ul li a,.agileinfo_services_grid1 h4,.agileinfo_services_grid1_pos,.w3agile_footer_grid_left a,.agileinfo_footer_bot_right p a{
 	transition: .5s ease-in;
