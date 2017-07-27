@@ -17,7 +17,20 @@ jQuery(document).ready(function($) {
     	// will fade out the whole DIV that covers the website. 
     	$("#preloader").delay(5).fadeOut("slow").remove();      
 
-  	}) 
+  	})
+
+/*---------------------------------------------------- */
+/* Preloader2
+------------------------------------------------------ */ 
+    $(window).load(function() {
+
+    // will first fade out the loading animation 
+      $("#status2").fadeOut("slow"); 
+
+      // will fade out the whole DIV that covers the website. 
+      $("#preloader2").delay(4).fadeOut("slow").remove();      
+
+    }) 
 
 /*---------------------------------------------------- */
 /* Menu
@@ -211,21 +224,5 @@ jQuery(document).ready(function($) {
 		offset: '35%'
 
 	});
-
-
-/*----------------------------------------------------*/
-/*	Make sure that #intro height is
-/* equal to the browser height.
------------------------------------------------------- */
-
-   $('#intro, #map').css({ 'height': $(window).height() });
-   $(window).on('resize', function() {
-
-        $('#intro, #map').css({ 'height': $(window).height() });
-        $('body').css({ 'width': $(window).width() })
-
-        $("#intro").backstretch("images/nairobii.png");
-   });
-
 
 });

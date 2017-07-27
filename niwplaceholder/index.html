@@ -1,283 +1,252 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+     <!--- Basic Page Needs
+     ================================================== -->
+    <meta charset="utf-8">
+  	<title>Nairobi Innovation Week</title>
+  	<meta name="description" content="">
+  	<meta name="author" content="">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Nairobi Innovation Week</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+     <!-- Mobile Specific Metas
+     ================================================== -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  	<!-- CSS
+      ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+  	<link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    
+     <!-- Script
+     ================================================== -->
+  	<script src="js/modernizr.js"></script>
+  	<script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <!-- Favicons
+  	================================================== -->
+  	<link rel="shortcut icon" href="images/log.jpg" >
+  </head>
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <body>
 
-	<!-- CSS
-    ================================================== -->
-  <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/media-queries.css">
+  	<div id="preloader">      
+        <div id="status">
+           <img src="images/preloader.gif" height="64" width="64" alt="...">
+        </div>
+    </div>
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-	<script src="https://code.jquery.com/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="niw.png" >
+     <!-- Intro Section
+     ================================================== -->
+    <section id="intro">
 
-</head>
+     	<header class="row">	 
 
-<body>
+  			<div id="logo" >
+  				<a href="http://innovationweek.co.ke" class="niwlog">
+            <img src="niw.png">                  
+          </a>					
+  			</div>
 
-	<div id="preloader">
-      <div id="status">
-         <img src="images/preloader.gif" height="64" width="64" alt="...">
-      </div>
-   </div>
+  		  <nav id="nav-wrap">
 
-   <!-- Intro Section
-   ================================================== -->
-   <section id="intro">
-
-   	<header class="row">
-
-			<div id="logo" >
-				<a href="http://innovationweek.co.ke" class="niwlog">
-                 	<img src="niw.png">
-              	</a>
-			</div>
-
-		   <nav id="nav-wrap">
-
-		      <a class="menu-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-			   <a class="menu-btn" href="#" title="Hide navigation">Hide navigation</a>
+  		    <a class="menu-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a class="menu-btn" href="#" title="Hide navigation">Hide navigation</a>
 
 		      <ul id="nav" class="nav">
 		         <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
 		         <li><a class="smoothscroll" href="#about">About</a></li>
-             <li><a href="contact.html" >Contact Us</a></li>
+             <li><a  href="http://innovationweek.co.ke/contactus.php">Contact Us</a></li>
              <li><a href="http://2016.innovationweek.co.ke/" target="_blank">2016 Chapter</a></li>
-             <li><a href="http://2017.innovationweek.co.ke/" target="_blank">2017 Chapter</a></li>
+             <li><a href="http://2017.innovationweek.co.ke/" target="_blank">2017 Chapter</a></li>	
 		      </ul> <!-- end #nav -->
 
-		   </nav> <!-- end #nav-wrap -->
+  		  </nav> <!-- end #nav-wrap -->
 
-   	</header> <!-- Header End -->
+      </header> <!-- Header End -->   	
 
-   	<div  id="main" class="row">
+      <div  id="main" class="row">
 
-	   	<div class="twelve columns">
+        <div class="twelve columns">	   			
+  	   		<h1>NAIROBI INNOVATION WEEK 2018</h1>
+  	   		<h2>THEME: INNOVATING FOR A BETTER TOMORROW!</h2>
+  	   		<div id="counter" class="cf">
+  	   			<span id="days"></span>
+    				<span id="hours"></span>
+    				<span id="minutes"></span>
+    				<span id="seconds"></span> 
+     			</div><br>		
+     			<h3>Date: 5th-9th March, 2018<br>Venue: The Great Court, University of Nairobi</h3>
+        </div> 
 
-	   		<h1>NAIROBI INNOVATION WEEK 2018</h1>
-
-	   		<h2>THEME: INNOVATING FOR A BETTER TOMORROW!</h2><br>
-
-	   		<div id="counter" class="cf">
-	   			<span id="days"></span>
-				<span id="hours"></span>
-				<span id="minutes"></span>
-				<span id="seconds"></span>
-   			</div>	<br>		<br>
-   			<h3>Date: 5th-9th March, 2018<br>
-   			Venue: The Great Court, University of Nairobi</h3>
-         </div>
-
-
-      </div> <!-- main end -->
-      <br>
-<div class="row content">
+        <div class="twelve columns">
           <div class="row text-center">
             <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Sub-Themes</a>
             <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#largeModal">Our Vision</a>
-            <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#smallModal">Our Mission</a>
-
-    </div>
-
-    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel">SUB-THEMES</h4>
+            <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#smallModal">Our Mission</a>      
           </div>
-          <div class="modal-body">
-            <h3><ol>
-              <li>Agriculture and food security</li>
-          <li>Children, Youth and the vulnerable</li>
-          <li>Next generation startups and enterprises</li>
-          <li>Commercialization of Research & Innovations</li>
-          <li>Innovation for/and SDGs</li>
-          <li>Data Science</li>
-            </ol></h3>
+
+          <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel">SUB-THEMES</h4>
+                </div>
+                <div class="modal-body">
+                  <h3><ul>
+                    <li>Agriculture and food security</li>
+                <li>Children, youth and the vulnerable</li>
+                <li>Next generation startups and enterprises</li>
+                <li>Commercialization of Research & Innovations</li>
+                <li>Innovation for/and SDGs</li>
+                <li>Data Science</li>
+                  </ul></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+          <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel">OUR VISION</h4>
+                </div>
+                <div class="modal-body">
+                  <h3>To be the go-to innovation platform that shapes the innovation ecosystem in the region.</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel">OUR MISSION</h4>
+                </div>
+                <div class="modal-body">
+                  <h3>To contribute towards a vibrant, productive and sustainable national innovation ecosystem through policy influence, show casing, innovation research dissemination, networking, capacity building, investment and support opportunities.</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> <!-- main end -->    	
 
-    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel">OUR VISION</h4>
-          </div>
-          <div class="modal-body">
-            <h3>To be the go-to innovation platform that shapes the innovation ecosystem in the region.</h3>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+    </section> <!-- end intro section -->
+
+
+     <!-- About Section
+     ================================================== -->
+      <section id="about">
+        <div class="partners">
+    			<div class="convener">
+    				<h3>Convener</h3>
+    				<a href="http://www.uonbi.ac.ke" target="_blank">
+    				<img src="images/uonlogo.png"></a>	
+    			</div>
+    			<div class="strategic_partners">
+    				<h3>Strategic Partners</h3>
+    				<a href="http://www.industrialization.go.ke/" target="_blank">		
+    				<img src="images/industry-resized.png"></a>
+    				<a href="http://www.ict.go.ke/" target="_blank">
+    				<img src="images/information-resized.png"></a>
+    				<a href="http://www.education.go.ke/" target="_blank">
+    				<img src="images/education-resized2.png"></a>
+    				<a href="http://formin.finland.fi/Public/default.aspx?" target="_blank">
+    				<img src="images/finland.png"></a>
+    				<a href="https://www.unicef.org/" target="_blank">
+    				<img src="images/unicef-resized.png"></a>		  
+    			</div>
+  		  </div> <!-- end partners -->
+      </section> <!-- About Section End-->    
+
+
+     <!-- Location Section
+     ================================================== -->
+  	<section id="location">
+  	   <div class="well" id="map">
+  	   	 <p class="map-error">Oh Snap... Unable to load map...</p>
+  	   </div> <!-- end map -->
+
+       <!-- <div id="video">
+  	   	<iframe style="width:49.8% !important; height:500px; float: right !important" src="https://www.youtube.com/embed/faSrRHw6eZ8?list=PLDb22nlVXGgfwG1qbOtNgu897E_ky_8To" allowfullscreen></iframe>
+  	   </div> -->
+  	</section> <!-- end location section -->
+
+     <!-- footer
+     ================================================== -->
+     <footer>
+
+        <div class="row">
+        	<div class="twelve columns">            
+           	<center><ul class="social">
+  	            <li><a href="https://www.facebook.com/nairobiinnovationweek/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  	            <li><a href="https://twitter.com/search?q=nairobi%20innovation%20week&src=typd" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  	            <li><a href="https://www.linkedin.com/in/nairobi-innovation-week-bb3327137/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              </ul></center>
+              <ul class="copyright">
+                 <li>&copy; Copyright C4DLab, University of Nairobi</li>          
+              </ul>
+
+           </div>          
+
         </div>
-      </div>
-    </div>
 
-    <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel">OUR MISSION</h4>
-          </div>
-          <div class="modal-body">
-            <h3>To contribute towards a vibrant, productive and sustainable national innovation ecosystem
-through policy influence, show casing, innovation research dissemination, networking, capacity
-building, investment and support opportunities.</h3>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-		</div>
-   </section> <!-- end intro section -->
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#intro"><i class="icon-up-open"></i></a></div>
 
+     </footer> <!-- Footer End-->   
 
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-      	<div class="rowp">
-         <div class="partners">
-			<div class="convener">
-				<h3>Convener</h3>
-				<a href="http://www.uonbi.ac.ke" target="_blank">
-				<img src="images/uonlogo.png"></a>
-			</div>
-			<div class="strategic_partners">
-				<h3>Strategic Partners</h3>
-				<a href="http://www.industrialization.go.ke/" target="_blank">
-				<img src="images/industry-resized.png"></a>
-				<a href="http://www.ict.go.ke/" target="_blank">
-				<img src="images/information-resized.png"></a>
-				<a href="http://www.education.go.ke/" target="_blank">
-				<img src="images/education-resized2.png"></a>
-				<a href="http://formin.finland.fi/Public/default.aspx?" target="_blank">
-				<img src="images/finland.png"></a>
-				<a href="https://www.unicef.org/" target="_blank">
-				<img src="images/unicef-resized.png"></a>
-			</div>
-		</div> <!-- end partners --></div>
+     <!-- Java Script
+     ================================================== -->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+     <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-   </section> <!-- About Section End-->
+  	<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+     <script src="js/gmaps.js"></script>
+     <script src="js/waypoints.js"></script>
+     <script src="js/jquery.countdown.js"></script>
+     <script src="js/jquery.placeholder.js"></script>
+     <script src="js/backstretch.js"></script>  
+     <script src="js/init.js"></script>
+     <script type="text/javascript">
+  		var countDownDate = new Date("March 5, 2018 00:00:00").getTime();
 
+  		var x = setInterval(function(){
+  			var now = new Date().getTime();
+  			var distance = countDownDate - now;
+  			var days = Math.floor(distance/(1000*60*60*24));
+  			var hours = Math.floor((distance % (1000*60*60*24))/(1000*60*60));
+  			var minutes = Math.floor((distance % (1000*60*60))/(1000*60));
+  			var seconds = Math.floor((distance % (1000*60))/1000);
 
-   <!-- Location Section
-   ================================================== -->
-	<section id="location">
+  			document.getElementById("days").innerHTML = days + "<em>Days</em>";
+  			document.getElementById("hours").innerHTML = hours + "<em>Hours</em>";
+  			document.getElementById("minutes").innerHTML = minutes + "<em>Minutes</em>";
+  			document.getElementById("seconds").innerHTML = seconds + "<em>Seconds</em>";
+  			if (distance < 0) {
+  				clearInterval(x);
+  				document.getElementById("counter"). innerHTML = "Welcome to Nairobi Innovation Week";
+  			}
+  		}, 1000);
+  	</script>
 
-	   <div class="well" id="map">
-
-	   	 <p class="map-error">Oh Snap... Unable to load map...</p>
-
-
-	   </div> <!-- end map -->
-	   <div class="well" id="video">
-     <ul class="social">
-     <h3>Contact Us</h3>
-       <li><i class="fa fa-map-marker"></i> |  Great Square, University of Nairobi</li>
-       <li><i class="fa fa-envelope"></i> |  abc@gmail.com</li>
-       <li><i class="fa fa-phone"></i> |  +254-712 345 678</li>
-       </ul>
-       <form>
-         <label>E-mail</label><input type="text" name="">
-         <label>Comment</label><textarea type="text" name=""></textarea>
-         <button type="submit" href="#">Send</a>
-       </form>
-     </div><!-- end contacts -->
-
-     <!-- <div id="video">
-	   	<iframe style="width:49.8% !important; height:500px; float: right !important" src="https://www.youtube.com/embed/faSrRHw6eZ8?list=PLDb22nlVXGgfwG1qbOtNgu897E_ky_8To" allowfullscreen></iframe>
-	   </div> -->
-
-
-	</section> <!-- end location section -->
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-      	<div class="twelve columns">
-         	<center><ul class="social">
-	            <li><a href="https://www.facebook.com/nairobiinnovationweek/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-	            <li><a href="https://twitter.com/search?q=nairobi%20innovation%20week&src=typd" target="_blank"><i class="fa fa-twitter"></i></a></li>
-	            <li><a href="https://www.linkedin.com/in/nairobi-innovation-week-bb3327137/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            </ul></center>
-            <ul class="copyright">
-               <li>&copy; Copyright C4DLab, University of Nairobi</li>
-            </ul>
-
-         </div>
-
-      </div>
-
-      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#intro"><i class="icon-up-open"></i></a></div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-	<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
-   <script src="js/gmaps.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.countdown.js"></script>
-   <script src="js/jquery.placeholder.js"></script>
-   <script src="js/backstretch.js"></script>
-   <script src="js/init.js"></script>
-   <script type="text/javascript">
-		var countDownDate = new Date("March 5, 2018 00:00:00").getTime();
-
-		var x = setInterval(function(){
-			var now = new Date().getTime();
-			var distance = countDownDate - now;
-			var days = Math.floor(distance/(1000*60*60*24));
-			var hours = Math.floor((distance % (1000*60*60*24))/(1000*60*60));
-			var minutes = Math.floor((distance % (1000*60*60))/(1000*60));
-			var seconds = Math.floor((distance % (1000*60))/1000);
-
-			document.getElementById("days").innerHTML = days + "<em>Days</em>";
-			document.getElementById("hours").innerHTML = hours + "<em>Hours</em>";
-			document.getElementById("minutes").innerHTML = minutes + "<em>Minutes</em>";
-			document.getElementById("seconds").innerHTML = seconds + "<em>Seconds</em>";
-			if (distance < 0) {
-				clearInterval(x);
-				document.getElementById("counter"). innerHTML = "Welcome to Nairobi Innovation Week";
-			}
-		}, 1000);
-	</script>
-
-</body>
+  </body>
 
 </html>
