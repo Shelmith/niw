@@ -37,7 +37,7 @@
 
   			<div id="logo" >
   				<a href="http://innovationweek.co.ke" class="niwlog">
-            <img src="niw.png">                  
+            <img src="images/niw.png">                  
           </a>					
   			</div>
 
@@ -72,7 +72,7 @@
           <?php
             if(isset($_POST['email'])) {
              
-                $email_to = "shelahnokun96@gmail.com";
+                $email_to = "hello@innovationweek.co.ke";
                 $email_subject = "NIW18 Contact Us";
              
                 function died($error) {
